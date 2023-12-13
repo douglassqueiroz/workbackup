@@ -1,0 +1,13 @@
+npm config set strict-ssl=false
+
+npm install download
+npm i json-server
+
+
+npm install -g devcert-cli
+devcert generate localhost
+foi adicionado a senha 102030
+
+
+$ ng serve --ssl true --ssl-key "C:\Users\douglas.queiroz\Documents\amanda\empilhadeiras\ProjectWork-main\frontend\frontend_empilhadeira\ssl\server.key" --ssl-cert 
+"C:\Users\douglas.queiroz\Documents\amanda\empilhadeiras\ProjectWork-main\frontend\frontend_empilhadeira\ssl\server.cert"
