@@ -1,0 +1,28 @@
+/* component.css */
+/* Adicione estilos específicos para os botões */
+.btn-control {
+    margin-top: 10px;
+}
+
+#btnScreenshot,
+#btnChangeCamera,
+#btnPause,
+#btnPlay {
+    /* Adapte conforme necessário */
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#btnScreenshot {
+    background-color: #23d160;
+}
+
+#btnChangeCamera {
+    background-color: #3273dc;
+}
+
+#btnPause {
+    background-color: #ff3860;
+}
